@@ -1,0 +1,66 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+body{
+    background: rgb(151, 144, 149);
+    color: rgb(14, 14, 14);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+
+}
+
+header {
+    background-color: rgb(133, 126, 131);
+    padding: 15px;
+    border-bottom: 5px solid rgb(22, 14, 14);
+}
+
+h2 {
+    color: rgb(45, 42, 42);
+}
+
+h3 {
+    color: rgb(45, 42, 42);
+}
+
+
+
+#skills{
+     padding: 15px 20px 5px;
+     border-radius: 5px;
+     border-bottom: 2px solid rgb(22, 14, 14);
+     border-top: 2px solid rgb(22, 14, 14);
+     margin-bottom: 1em;
+
+
+}
+
+#contact {
+    
+     padding: 15px 20px 5px;
+     border-radius: 5px;
+     border-bottom: 2px solid rgb(22, 14, 14);
+     
+}
+
+
+
+
+p, h2, h3, img{
+
+    margin-bottom: 1em;
+
+}
+
+ul {
+
+    margin-bottom: 1em;
+    padding-left:40px ;
+
+
+}
