@@ -18,23 +18,10 @@ body{
 
 }
 
-header {
-    background-color: rgb(133, 126, 131);
-    padding: 15px;
-    border-bottom: 5px solid rgb(22, 14, 14);
-    text-align: center; 
-}
 
-h2 {
+h2, h3{
     color: rgb(45, 42, 42);
 }
-
-h3 {
-    color: rgb(45, 42, 42);
-}
-
-
-
 table  {
     margin: 0 auto;
     text-align: center;
@@ -69,8 +56,6 @@ img {
     
 }
 
-
-
 p, h2, h3{
 
     text-align: center; 
@@ -84,6 +69,14 @@ ul {
     padding-left:40px ;
     text-align: center; 
 
+}
+
+
+header {
+    background-color: rgb(133, 126, 131);
+    padding: 15px;
+    border-bottom: 5px solid rgb(22, 14, 14);
+    text-align: center; 
 }
 
 
