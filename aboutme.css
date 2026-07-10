@@ -1,3 +1,6 @@
+
+
+
 * {
      box-sizing: border-box;
      margin: 0;
@@ -9,8 +12,9 @@
 body{
     background: rgb(151, 144, 149);
     color: rgb(14, 14, 14);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2.0;;
+    
 
 }
 
@@ -18,6 +22,7 @@ header {
     background-color: rgb(133, 126, 131);
     padding: 15px;
     border-bottom: 5px solid rgb(22, 14, 14);
+    text-align: center; 
 }
 
 h2 {
@@ -30,29 +35,45 @@ h3 {
 
 
 
+table  {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+
+
+
 #skills{
      padding: 15px 20px 5px;
      border-radius: 5px;
-     border-bottom: 2px solid rgb(22, 14, 14);
-     border-top: 2px solid rgb(22, 14, 14);
      margin-bottom: 1em;
+    
 
 
 }
 
-#contact {
+.contact {
     
      padding: 15px 20px 5px;
      border-radius: 5px;
-     border-bottom: 2px solid rgb(22, 14, 14);
      
+     
+}
+
+img {
+    
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 
 
+p, h2, h3{
 
-p, h2, h3, img{
-
+    text-align: center; 
     margin-bottom: 1em;
 
 }
@@ -61,6 +82,12 @@ ul {
 
     margin-bottom: 1em;
     padding-left:40px ;
+    text-align: center; 
+
+}
 
 
+footer a {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 0%;
 }
